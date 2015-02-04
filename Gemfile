@@ -36,4 +36,5 @@ gem 'spring',        group: :development
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro gem for securely managing credentials
 gem 'figaro'
-
+# Add letteropener for working with mail in dev mode
+gem 'letter_opener', group: :development
